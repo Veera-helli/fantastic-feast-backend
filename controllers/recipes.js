@@ -14,7 +14,9 @@ require('dotenv').config();
 // };
 
 recipesRouter.get('/', async (request, response) => {
-  const recipes = await Recipe.find({}).populate('user', {
+  const recipes = await Recipe.find({
+    user: request.query?.user,
+  }).populate('user', {
     username: 1,
     name: 1,
   });
