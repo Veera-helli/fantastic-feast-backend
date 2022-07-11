@@ -4,3 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Connects the Fantastic Feast app to a MongoDB database, where all user and recipe data is stored. 
 
+# You can ...
+* Create users
+* Log in users
+* Create recipes
+* Remove recipes
+* Keep track of server activity
+
